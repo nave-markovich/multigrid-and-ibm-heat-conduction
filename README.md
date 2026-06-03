@@ -37,6 +37,12 @@ Solved on a $200 \times 200$ cell-centered Finite Volume (FVM) grid[cite: 1, 2]:
 * **Implicit Immersed Boundary Method (IBM):** Implemented on a $200 \times 200$ structured Cartesian grid[cite: 1, 2]. Dirichlet boundary conditions on the hole ($T=2$)[cite: 1, 2] are handled via Lagrangian markers with a 4-point regularized Peskin delta kernel, yielding a saddle-point system solved via **Schur Complement formulation**[cite: 2].
 * **Explicit Direct Forcing IBM (Insulated Hole):** Implements a zero normal heat flux (Neumann BC) using a **Probe & Ghost point strategy**[cite: 2]. Interpolation and spreading operations are optimized using pre-computed sparse delta-function matrices to eliminate heavy pointwise loops inside the time-stepping cycle[cite: 2].
 
+
+### Simulation Results
+Here is an example of the computed temperature distribution and grid configuration from the simulation:
+* <img width="548" height="352" alt="image" src="https://github.com/user-attachments/assets/4981fe7d-836f-48fa-938e-b719ad77ba18" />
+
+
 ---
 
 ## Computational Performance & Optimization Highlights
