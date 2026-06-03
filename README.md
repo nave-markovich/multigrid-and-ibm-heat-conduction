@@ -40,7 +40,11 @@ Solved on a $200 \times 200$ cell-centered Finite Volume (FVM) grid[cite: 1, 2]:
 
 ### Simulation Results
 Here is an example of the computed temperature distribution and grid configuration from the simulation:
-* <img width="548" height="352" alt="image" src="https://github.com/user-attachments/assets/4981fe7d-836f-48fa-938e-b719ad77ba18" />
+
+<img width="490" height="417" alt="image" src="https://github.com/user-attachments/assets/a906162b-59d8-416a-a3a2-0d0122050a02" />
+
+*<img width="1164" height="310" alt="image" src="https://github.com/user-attachments/assets/5a1ce65b-261c-45e8-a8d6-21da7fb12383" />
+
 
 
 ---
